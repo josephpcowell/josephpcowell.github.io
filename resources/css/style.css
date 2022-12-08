@@ -28,3 +28,34 @@ p {
 .footer {
     text-align: right;
 }
+
+#box1,
+#box2,
+#box3 {
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#box1 {
+    background: #417cf2;
+}
+
+#box2 {
+    background: #f2e963;
+}
+
+#box3 {
+    background: #f26363;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px;
+}
